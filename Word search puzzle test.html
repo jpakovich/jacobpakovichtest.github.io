@@ -1,0 +1,73 @@
+<html><head>
+<title>Word Search Puzzle Game by ATK Solutons</title>
+<meta http-equiv="Expires" content="0"> 
+<meta http-equiv="Pragma" content="no-cache"> 
+<meta name="resource-type" content="document"> 
+<meta name="robots" content="index,follow,all">
+<meta name="GOOGLEBOT" content="index,follow,all">
+<meta name="revisit-after" content="7 days"> 
+<meta name="DESCRIPTION" content="Word Search Puzzle Game by ATK Solutons"> 
+<meta name="keywords" content="flash games, mind boggle, flash games, word search, word search puzzle, crossword puzzle">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="../menuscript.js" language="javascript" type="text/javascript"></script>
+<script src="../security.js" language="javascript" type="text/javascript"></script>
+</head>
+<body bgcolor="#000000" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onresize="resize_ws_game();">
+<div align="center">
+<table cellpadding="0" cellspacing="0" border="0">
+<tbody><tr><td valign="top" align="center">
+<script language="javascript">
+var query = window.location.search.substring(1);
+var l_id = parse_query_string(query,"id");
+var l_un = parse_query_string(query,"un");
+var l_gs = parse_query_string(query,"gs");
+var ws_gridsize;
+if (l_id!="") {
+   var ws_id;
+	 ws_id=l_id*1;
+}
+if (l_un!="") {
+	 var ws_username=l_un;
+}
+if (l_gs=="") {
+   ws_gridsize=18;
+} else {
+   ws_gridsize=l_gs*1;
+}
+if (ws_gridsize=="") ws_gridsize=18;
+if (ws_gridsize==10) document.write("<canvas id='canvasgame' width='430' height='280' bgcolor='#000000' tabindex='0'></canvas>");
+if (ws_gridsize==14) document.write("<canvas id='canvasgame' width='515' height='365' bgcolor='#000000' tabindex='0'></canvas>");
+if (ws_gridsize==18) document.write("<canvas id='canvasgame' width='600' height='450' bgcolor='#000000' tabindex='0'></canvas>");
+</script><canvas id="canvasgame" width="1323" height="938" bgcolor="#000000" tabindex="0" style="cursor: pointer;"></canvas>
+<script src="customwordsearch/wsz.js" language="javascript" type="text/javascript"></script>
+<script language="javascript">
+check_security_dist("wordsearch");
+document.getElementById("canvasgame").focus();
+resize_ws_game();
+
+function resize_ws_game() {
+if (ws_gridsize==18) resize_game(600,450);
+if (ws_gridsize==14) resize_game(515,365);
+if (ws_gridsize==10) resize_game(430,280);
+}
+</script>
+</td></tr></tbody></table>
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-2014847-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2014847-1');
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>

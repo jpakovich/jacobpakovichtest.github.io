@@ -1,0 +1,149 @@
+<html>   
+     <head> 
+          <title> UkeZuke.com</title>   
+               <script> 
+                 
+               function banner(){   
+               var text = confirm("Did you really want to go to W3 schools.com?"); return text; 
+               } 
+  
+               function answer(){ 
+                    var radio = document.getElementsByName("trivia1"); 
+                    var selection = false; 
+                    var message = ""; 
+                      
+               for( var i = 0; i < radio.length; i++) { 
+                 
+                    if(radio[i].value == "yes" && radio[i].checked == true) {   
+                    selection = true;   
+                    } //end if statement   
+               } //end for loop 
+                 
+               if(selection == true) { 
+                    message = message + "<b><p style='color:black'>Way to go! Yoo're pretty smart!</p></b>"; 
+                    } else {   
+                    message = message + "<b><p style='color:red'>YOO LOSE!! HAHAHAHA!!</p></b>"; 
+                    } 
+                 
+                    document.getElementById("response").innerHTML = message; 
+               } 
+  
+  
+               </script> 
+          <link type="text/css" rel="stylesheet" href="Main CSS.css"> 
+  
+     </head>   
+       
+     <body> 
+            
+          <header class="HEADER1"> 
+  
+  
+               <div style="float: left;"> 
+                      
+                    <img height="295" width="295" src="https://coustii.com/wp-content/uploads/2016/02/soprano-2-1.jpg"/> 
+                 
+               </div> 
+  
+               <div style="float: right;"> 
+  
+                    <img height="295" width="295" src="https://images-na.ssl-images-amazon.com/images/I/81fS9XCdDlL._SY355_.jpg"/> 
+  
+               </div> 
+  
+               <center class="UKETITLE"> 
+            
+                    <h1>UkeZuke</h1> 
+            
+               </center>
+
+               <center class="INTRO">
+                    <p>This site will teach you   
+                         <span class="Wrapper">(and your friends) </span> how to play the ukelele with speed, skill and confidence. 
+                         <br> 
+                         It will also throw so many songs at you, it's like a zucchini plant in late summer! 
+                                                                                                                                                                 
+                    </p>
+               </center>
+  
+          </header> 
+  
+            
+  
+               <nav> 
+                    <ul id="navmenu"> 
+                                
+                         <li class="navitem">   
+  
+                              <a href="https://drive.google.com/drive/folders/0B083BBitIETZYXVVendoMFpHdkk"> Google Drive Tutorials</a> 
+                         </li> 
+  
+                              <li class="navitem">   
+                                   <a href="index.html"> Home </a> 
+                              </li> 
+  
+                              <li class="navitem"> <a href="videos.html"> 
+                                   Videos </a> 
+                              </li> 
+                           
+                    </ul> 
+               </nav> 
+            
+          <div id="right_side1"> 
+  
+                 
+                      
+                    <iframe id="castlevania" src="https://www.youtube-nocookie.com/embed/0Ghd3tvsNAs?rel=0&showinfo=0"       
+      
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>     
+      
+                    </iframe> 
+                 
+                    <div id="wrap-trivia"> 
+                         <h2> HERE'S A TRIVIA QUESTION FOR YOO.</h2> 
+                              <p> When was the Declaration Of Independence issued? 
+                              </p> 
+  
+                    <form> 
+                         <div id="response"> </div> 
+                           
+                              <input type="radio" name="trivia1" value="yes"> Sometime in 1776<br> 
+                              <input type="radio" name="trivia1" value="no1"> 2nd Possible Answer <br> 
+                              <input type="radio" name="trivia1" value="no2"> 3rd Possible Answer <br> 
+                              <input type="radio" name="trivia1" value="no3"> 4th Possible Answer <br>   
+  
+                              <input type="button" value="SUBMIT!!"   
+                              onclick="answer()"> 
+  
+                    </form> 
+               </div> 
+          </div> 
+       
+          <div id="left_side1"> 
+  
+               <img id="LUGIA" src="file:///C:/Users/Mom%20&%20Dad/Desktop/Wallpapers%20and%20pics/lugia%20wallpaper.jpg"/> 
+          </div> 
+  
+  
+                    <div class="clearfloat"> </div> 
+  
+          <footer class="FOOTER1">This Site is made possible by the Sublime application, the folks at SimplyCoding.com, and Abby and Kenneth P.</footer> 
+  
+<script type="text/javascript">   
+      window.onscroll = function() {myFunction()};   
+    
+      var navmenu = document.getElementById("navmenu");   
+    
+      var sticky = navmenu.offsetTop;   
+    
+      function myFunction() {   
+        if (window.pageYOffset >= sticky) {   
+          navmenu.classList.add("sticky")   
+        } else {   
+          navmenu.classList.remove("sticky"); 
+        }   
+      }   
+    
+    </script>   
+     </body>   
+</html>

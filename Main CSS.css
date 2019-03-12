@@ -1,0 +1,157 @@
+h1{ 
+     font-size:100px; 
+     font-family: "Arial"; 
+     color:black;} 
+  
+       
+.UKETITLE{ 
+     color:teal; 
+     font-size:100px; 
+     text-decoration: underline;}       
+  
+  
+#INTRO{
+    padding-top: 200px;
+        } 
+  
+body{ 
+     background-color:black;} 
+  
+.HEADER1{ 
+     height:300px; 
+     width:99%; 
+     border:10px solid green; 
+     background-color:white; 
+     margin-bottom:25px;} 
+  
+.FOOTER1{ 
+     height:50px; 
+     width:100%; 
+     border:3px solid white; 
+     background-color:black; 
+     color:#ffff00;} 
+  
+  
+  
+.Wrapper{font-size:80%;} 
+  
+#IDONE{ 
+     height: 100px; 
+     width: 100px; 
+     background-color: #00b300; 
+     display: inline-block; 
+     position: absolute; 
+     z-index: 1; 
+     position: fixed; 
+     left: 25%; 
+     } 
+  
+#IDTWO{ 
+     height: 100px; 
+     width: 100px; 
+     background-color: blue; 
+     display: inline-block; 
+     position: absolute; 
+     z-index: 2; 
+     position: relative;   
+     left: 46.8%; 
+     top: 48%; 
+  
+} 
+  
+#IDTHREE{height: 100px; 
+     width: 100px; 
+     background-color: orange; 
+     display: inline-block; 
+     position: absolute; 
+} 
+  
+#BODYONE{height: 2048px; 
+} 
+  
+#castlevania{ 
+     height:350px; 
+     width:600px; 
+     margin-top:100px; 
+     margin-bottom:100px; 
+     border:3px solid white; 
+} 
+  
+  
+.navitem{ 
+     list-style-type:none; 
+     display:inline; 
+     margin-right: 25px; 
+     font-size:30px; 
+}   
+  
+.navitem a:link{ 
+     color:black; 
+} 
+  
+.navitem a:visited{ 
+     color:black; 
+}   
+  
+.navitem a:hover{ 
+     color:orange; 
+} 
+  
+.navitem a:active{ 
+     color:red; 
+}   
+  
+#navmenu { 
+     width:530px; 
+     left:-17; 
+     overflow:hidden; 
+     height:60px; 
+     border:3px solid blue; 
+     background-color:white; 
+} 
+  
+.content {   
+        padding: 16px;   
+      }   
+    
+      .sticky {   
+        position: fixed;   
+        top: -17; 
+        left: -17;   
+        width: 100%;   
+      }   
+    
+      .sticky + .content {   
+        padding-top: 10px;   
+      }   
+  
+#right_side1{ 
+     float:right; 
+     width:50%; 
+} 
+  
+#left_side1{ 
+     width:50%; 
+     border: 2px ; 
+} 
+  
+#LUGIA { 
+     height:350px; 
+     width:600px; 
+     margin-top:100px; 
+     margin-bottom:100px; 
+     border:3px solid white; 
+} 
+  
+.clearfloat{ 
+     clear:right; 
+} 
+  
+#wrap-trivia{ 
+     height:250px; 
+     width:500px; 
+     background-color:white; 
+     border:3px double black; 
+  
+  
+}

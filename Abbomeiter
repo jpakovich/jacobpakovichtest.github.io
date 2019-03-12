@@ -1,0 +1,34 @@
+<html>
+<body> 
+            
+          <header class="HEADER1"> 
+  
+  
+               <div style="float: left;"> 
+                      
+                    <img height="295" width="295" src="https://coustii.com/wp-content/uploads/2016/02/soprano-2-1.jpg"/> 
+                 
+               </div> 
+  
+               <div style="float: right;"> 
+  
+                    <img height="295" width="295" src="https://images-na.ssl-images-amazon.com/images/I/81fS9XCdDlL._SY355_.jpg"/> 
+  
+               </div> 
+  
+               <center class="UKETITLE" style="Float: left;"> 
+            
+                    <h1>UkeZuke</h1> 
+            
+               </center> 
+  
+               <center id="INTRO"> 
+                    <p>This site will teach you   
+                         <span class="Wrapper">(and your friends) </span> how to play the ukelele with speed, skill and confidence. 
+                         <br> 
+                         It will also throw so many songs at you, it's like a zucchini plant in late summer! 
+                                                                                                                                                                 
+                    </p> 
+               </center> 
+  
+          </header> 
